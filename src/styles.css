@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+span {
+    /* font-size: 20px; */
+    font-family: Consolas;
+color:darkgray;
+    padding-right: 0px;
+    display: block;
+  }
+
+  span:focus {
+    color: rgb(120,145,131);
+  }
+  
+  span:last-of-type:after {
+    content: '';
+
+
+    vertical-align: text-bottom;
+    width: 2px;
+    margin-left: 2px;
+    height: .9em;
+    background: darkgray;
+    margin-bottom: .1em;
+    
+    opacity: 0;
+    display: inline-block;
+    animation: blink 1s linear infinite alternate;
+
+
+  }
+
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }/* You can add global styles to this file, and also import other style files */

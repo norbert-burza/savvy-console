@@ -1,0 +1,18 @@
+#console {
+    padding-left: 5px;
+    background-color: gray;
+    width: 800px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#console:focus {
+    background-color: rgb(3,45,55);
+}
+
+.span {
+    color: black;
+}
