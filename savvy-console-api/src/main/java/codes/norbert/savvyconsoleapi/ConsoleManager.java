@@ -24,8 +24,6 @@ public class ConsoleManager {
     }
 
     public String execute(String input) {
-        String a = "a";
-        a = "7";
 //        if (pw != null) {
 //            pw.write(input);
 //            try {
